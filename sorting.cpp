@@ -14,8 +14,7 @@ void selectionSort(int a[], int n) {
 }
 int main() {
    int a[] = { 22, 91, 35, 78, 10, 8, 75, 99, 1, 67 };
-   int n = sizeof(a)/ sizeof(a[0]);
-   int i;
+   int i,n = sizeof(a)/ sizeof(a[0]);
    cout<<"Given array is:"<<endl;
    for (i = 0; i < n; i++)
    cout<< a[i] <<" ";
